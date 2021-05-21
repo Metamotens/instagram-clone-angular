@@ -1,0 +1,154 @@
+.content {
+  font-size: 0.9rem;
+  height: 100vh;
+
+  .top {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 86vh;
+
+    .left {
+      background-image: url("../../../../assets/images/login-background.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 618px;
+      width: 454px;
+
+      .image {
+        position: relative;
+        left: 9.4rem;
+        top: 6.2rem;
+      }
+    }
+
+    .right {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 618px;
+      text-align: center;
+      width: 350px;
+
+      &_top {
+        background-color: white;
+        border: 1px solid lightgray;
+        margin-top: 2.5em;
+        margin-bottom: 0.8em;
+        width: 100%;
+
+        img {
+          margin-top: 1.2em;
+          margin-bottom: 1.5em;
+          width: 190px;
+          height: 65px;
+        }
+
+        form {
+          background-color: white;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          input {
+            margin-bottom: 0.5em;
+          }
+
+          button {
+            background-color: #0095f6;
+            border-radius: 4px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            font-weight: 600;
+            height: 30px;
+            margin-bottom: 0.5em;
+            margin-top: 0.5em;
+            width: 265px;
+          }
+        }
+
+        .o {
+          align-items: center;
+          color: #8e8e8e;
+          display: flex;
+          flex-direction: row;
+          font-size: 1.2em;
+          font-weight: 600;
+          justify-content: center;
+
+          .line {
+            border-top: 1px solid lightgray;
+            width: 110px;
+          }
+
+          .text {
+            margin: 5px 15px;
+          }
+        }
+
+        .facebook {
+          align-items: center;
+          color: #385185;
+          display: flex;
+          font-weight: 600;
+          justify-content: center;
+
+          img {
+            height: 16px;
+            padding-top: 5px;
+            padding-right: 5px;
+            width: 16px;
+          }
+        }
+
+        .forgot {
+          font-size: 12px;
+          height: 3em;
+        }
+      }
+
+      &_center {
+        background-color: white;
+        border: 1px solid lightgray;
+        padding: 17px 0;
+        width: 100%;
+
+        a {
+          color: #0095f6;
+          font-weight: 600;
+        }
+      }
+
+      &_bot {
+        .download {
+          padding: 20px;
+        }
+
+        img {
+          width: 136px;
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+
+  footer {
+    align-items: center;
+    color: #8e8e8e;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+
+    span {
+      padding-top: 20px;
+      margin: 20px 10px;
+    }
+
+    div {
+      height: 2rem;
+    }
+  }
+}
